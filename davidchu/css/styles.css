@@ -350,32 +350,3 @@ h3.menu-item-title {
     text-align: center;
   }
 }
-
-/********** Super Extra small devices only **********/
-@media (max-width: 479px) {
-  /*Header*/
-  .navbar-brand h1 { /*restaurant name*/
-    padding-top: 5px;
-    font-size: 6vw;
-  }
-  /*end of header*/
-
-  /*home page*/
-  #menu-tile #specials-tile {
-    width: 90vw;
-    margin: 0 auto 15px;
-  }
-*footer {
-  width: 100%
-}
-
-  .col-xxs-12 {
-    position: relative;
-    text-align: center;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    float: left;
-    width: 100%;
-  }
-}
