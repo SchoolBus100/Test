@@ -285,7 +285,6 @@ h3.menu-item-title {
     height: 80px;
   }
 
-
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 10px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
@@ -339,7 +338,7 @@ h3.menu-item-title {
     background-position: center;
   }
 
-  #menu-tile #specials-tile {
+  #menu-tile, #specials-tile {
   width: 360px;
   margin: 0 auto 15px;
   }
@@ -357,10 +356,6 @@ h3.menu-item-title {
 /********** Super Extra small devices only **********/
 @media (max-width: 479px) {
   /*Header*/
-  #header-nav .navbar {
-    width: 100%;
-  }
-
   .navbar-brand h1 { /*restaurant name*/
     padding-top: 5px;
     font-size: 6vw;
@@ -368,14 +363,13 @@ h3.menu-item-title {
   /*end of header*/
 
   /*home page*/
-  #menu-tile #specials-tile {
+  #menu-tile, #specials-tile {
     width: 280px;
     margin: 0 auto 15px;
   }
 
   .col-xxs-12 {
     position: relative;
-    text-align: center;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
