@@ -323,6 +323,7 @@ h3.menu-item-title {
     margin-bottom: :30px;
     text-align: center;
   }
+  
   .panel-footer section:nth-child(3) {
     margin-bottom: 0; /*margin already exists on the whole row*/
   }
@@ -337,15 +338,18 @@ h3.menu-item-title {
   }
 
   #menu-tile #specials-tile {
-  width: 360px;
-  margin: 0 auto 15px;
+    width: 360px;
+    margin: 0 auto 15px;
   }
+
   .menu-item-photo {
     margin-right: auto;
   }
+
   .menu-item-tile .menu-item-price {
     text-align: center;
   }
+
   .menu-item-description {
     text-align: center;
   }
