@@ -355,17 +355,17 @@ h3.menu-item-title {
 }
 
 
-/********** Super Extra small devices only **********/
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
-  /*Header*/
-  .navbar-brand h1 { /*restaurant name*/
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
     padding-top: 5px;
     font-size: 6vw;
   }
-  /*end of header*/
-
-  /*home page*/
-  #menu-tile #specials-tile {
+  /* End Header */
+  
+  /* Home page */
+  #menu-tile, #specials-tile {
     width: 280px;
     margin: 0 auto 15px;
   }
